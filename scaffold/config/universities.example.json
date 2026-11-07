@@ -1,0 +1,122 @@
+{
+  "selection_basis": "以色列 10 所主要研究型大学（QS 2026 / THE 2026 上榜高校 + 研究产出体量）。不含学院（college），如 Tel-Hai、JCT、Shenkar 等。",
+  "ranking_source": [
+    "QS World University Rankings 2026 (published Jun 2025)",
+    "THE World University Rankings 2026 (published Oct 2025)",
+    "OpenAlex works_count（2026-11 快照，作为研究体量校验）"
+  ],
+  "universities": [
+    {
+      "code": "TAU",
+      "name_en": "Tel Aviv University",
+      "name_zh": "特拉维夫大学",
+      "name_he": "אוניברסיטת תל אביב",
+      "openalex_id": "I16391192",
+      "ror": "https://ror.org/04mhzgx49",
+      "city": "Tel Aviv",
+      "roster": "official",
+      "existing_data": "D:/dev/University-IL/data/processed/faculty_master.json",
+      "note": "官方通讯录（אלפון）13,808 条，含希伯来职称；A 层 1,080 人"
+    },
+    {
+      "code": "HUJI",
+      "name_en": "Hebrew University of Jerusalem",
+      "name_zh": "希伯来大学",
+      "name_he": "האוניברסיטה העברית בירושלים",
+      "openalex_id": "I197251160",
+      "ror": "https://ror.org/03qxff017",
+      "city": "Jerusalem",
+      "roster": "openalex",
+      "note": "OpenAlex 署名作者口径"
+    },
+    {
+      "code": "TECH",
+      "name_en": "Technion – Israel Institute of Technology",
+      "name_zh": "以色列理工学院",
+      "name_he": "הטכניון",
+      "openalex_id": "I174306211",
+      "ror": "https://ror.org/03qryx823",
+      "city": "Haifa",
+      "roster": "openalex",
+      "existing_data": "D:/dev/University-IL/technion/data/processed/faculty_master.json",
+      "note": "无公开名录；OpenAlex 口径，A 层用物理系 38 人名单校验（32/38）"
+    },
+    {
+      "code": "WIS",
+      "name_en": "Weizmann Institute of Science",
+      "name_zh": "魏茨曼科学研究所",
+      "name_he": "מכון ויצמן למדע",
+      "openalex_id": "I53964585",
+      "ror": "https://ror.org/0316ej306",
+      "city": "Rehovot",
+      "roster": "openalex",
+      "note": "仅招研究生；OpenAlex 署名口径"
+    },
+    {
+      "code": "BGU",
+      "name_en": "Ben-Gurion University of the Negev",
+      "name_zh": "本-古里安大学",
+      "name_he": "אוניברסיטת בן-גוריון בנגב",
+      "openalex_id": "I124227911",
+      "ror": "https://ror.org/05tkyf982",
+      "city": "Beer Sheva",
+      "roster": "openalex",
+      "note": "OpenAlex 署名作者口径"
+    },
+    {
+      "code": "BIU",
+      "name_en": "Bar-Ilan University",
+      "name_zh": "巴伊兰大学",
+      "name_he": "אוניברסיטת בר-אילן",
+      "openalex_id": "I13955877",
+      "ror": "https://ror.org/03kgsv495",
+      "city": "Ramat Gan",
+      "roster": "openalex",
+      "note": "OpenAlex 署名作者口径"
+    },
+    {
+      "code": "HAIFA",
+      "name_en": "University of Haifa",
+      "name_zh": "海法大学",
+      "name_he": "אוניברסיטת חיפה",
+      "openalex_id": "I91203450",
+      "ror": "https://ror.org/02f009v59",
+      "city": "Haifa",
+      "roster": "openalex",
+      "note": "OpenAlex 署名作者口径"
+    },
+    {
+      "code": "REICH",
+      "name_en": "Reichman University",
+      "name_zh": "赖希曼大学",
+      "name_he": "אוניברסיטת רייכמן",
+      "openalex_id": "I138898306",
+      "ror": "https://ror.org/01px5cv07",
+      "city": "Herzliya",
+      "roster": "openalex",
+      "note": "原 IDC Herzliya；OpenAlex 署名口径"
+    },
+    {
+      "code": "ARIEL",
+      "name_en": "Ariel University",
+      "name_zh": "阿里尔大学",
+      "name_he": "אוניברסיטת אריאל",
+      "openalex_id": "I52170813",
+      "ror": "https://ror.org/03nz8qe97",
+      "city": "Ariel",
+      "roster": "openalex",
+      "note": "OpenAlex 署名作者口径"
+    },
+    {
+      "code": "HIT",
+      "name_en": "Holon Institute of Technology",
+      "name_zh": "霍隆理工学院",
+      "name_he": "המכון הטכנולוגי חולון",
+      "openalex_id": "I157943965",
+      "ror": "https://ror.org/02prqh017",
+      "city": "Holon",
+      "roster": "openalex",
+      "note": "OpenAlex 署名作者口径"
+    }
+  ]
+}
